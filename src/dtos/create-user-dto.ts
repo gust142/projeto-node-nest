@@ -9,4 +9,6 @@ export class CreateUserDto {
         message:'O campo function não pode estar vazio'
     })
     function: string;
+    
+    address: string;
 }

@@ -16,6 +16,7 @@ export class UserServfice  {
       data:{
           name: user.name,
           function: user.function,
+          address: user.address
       }
     });
     return userCreated;
