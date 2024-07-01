@@ -14,7 +14,6 @@ export class UserServfice  {
     async addUser(user:CreateUserDto):Promise<CreateUserDto>{
         const userCreated = await this.prisma.user.create({
       data:{
-          id: randomUUID(),
           name: user.name,
           function: user.function,
       }
