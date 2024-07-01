@@ -9,6 +9,10 @@ export class AppController {
 constructor(private userService:UserServfice){
 
 }
+  @Get()
+   home(){
+    return 'Project-node-nest-js'
+  }
   @Post('create')
   async addUser(@Body() body: CreateUserDto) {
   
