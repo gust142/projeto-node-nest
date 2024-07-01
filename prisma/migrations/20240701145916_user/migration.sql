@@ -4,6 +4,7 @@ CREATE TABLE "User" (
     "name" TEXT NOT NULL,
     "function" TEXT NOT NULL,
     "address" TEXT NOT NULL,
+    "sobrenome" TEXT NOT NULL,
 
     CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );
